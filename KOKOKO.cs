@@ -7,7 +7,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("hoy es martesssssssssss");
             Console.Write(Environment.NewLine); // line break
             Console.Write("What is your name? ");
             string nombre = Console.ReadLine();

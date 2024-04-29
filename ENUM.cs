@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hola
+namespace Hola // lo he cambiado a las 16:04
 {
     class ENUM
     {
 
         enum WeekDays
         {
-            Monday,
-            Tuesday,
+            Lunes,
+            Martes,
             Wednesday,
             Thursday,
             Friday,
@@ -23,7 +23,7 @@ namespace Hola
         {
 
 
-            Console.WriteLine("hola KOKO");
+            Console.WriteLine("hola KOKO modificado 17 07");
             Console.Write("Introduzca un texto ");
             String texto;
 
@@ -35,8 +35,8 @@ namespace Hola
             texto = Console.ReadLine();
             Console.WriteLine("El texto introducido es: " + texto);
 
-            Console.WriteLine(WeekDays.Monday); // Monday
-            Console.WriteLine(WeekDays.Tuesday); // Tuesday
+            Console.WriteLine(WeekDays.Lunes); // Monday
+            Console.WriteLine(WeekDays.Martes); // Tuesday
             Console.WriteLine(WeekDays.Wednesday); // Wednesday
             Console.WriteLine(WeekDays.Thursday); // Thursday
             Console.WriteLine(WeekDays.Friday); // Friday
