@@ -13,7 +13,7 @@ namespace Hola
                         
             String valortexto;
             int valor;
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("CURSO C # 2024!");
             Console.Write(Environment.NewLine); // line break
 
             Console.Write("Introduzca un numero ");
