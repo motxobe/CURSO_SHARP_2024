@@ -9,7 +9,7 @@ namespace Program
         {
             Console.WriteLine("hoy es martes");
             Console.Write(Environment.NewLine); // line break
-            Console.Write("What is your name? ");
+            Console.Write("What is your name? "); // Añado algo
             string nombre = Console.ReadLine();
             Console.WriteLine("Hello " + nombre);
             DateTime fecha;
